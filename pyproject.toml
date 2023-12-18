@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "first-3996-2023"
+version = "0.1.0"
+description = ""
+authors = ["Martin Rioux"]
+readme = "README.md"
+packages = [{include = "first_3996_2023"}]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.12"
+robotpy-romi = "^2022.2.1.0"
+wpilib = "2022.4.1.6"
+robotpy = "2022.4.8"
+pyntcore = "2022.4.1.0"
+robotpy-halsim-ws = "2022.4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

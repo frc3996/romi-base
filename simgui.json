@@ -1,0 +1,28 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "RomiGyro": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/Ungrouped/Romi Motor[0]": "Motor Controller",
+      "/LiveWindow/Ungrouped/Romi Motor[1]": "Motor Controller",
+      "/SmartDashboard/Autonomous Mode": "String Chooser",
+      "/SmartDashboard/Field": "Field2d"
+    }
+  },
+  "NetworkTables": {
+    "Romi": {
+      "Config": {
+        "open": true
+      },
+      "open": true
+    }
+  }
+}
